@@ -53,6 +53,6 @@ jobs:
         uses: pawtograder/assignment-action@main
         with:
           grading_server: 'https://api.pawtograder.com'
-          handout_repo: 'neu-cs2100/fa25-hw1-algodecisionmakers-handout'
+          handout_repo: 'neu-cs2100/fa25-hw6-bias-bars-handout'
           action_ref: '${{ github.action_ref }}'
           action_repository: '${{ github.action_repository }}'
