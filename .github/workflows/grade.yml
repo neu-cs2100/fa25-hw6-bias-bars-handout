@@ -50,7 +50,7 @@ jobs:
           python -m pip install --upgrade pip
 
       - name: Collect Submission and Run Grader
-        uses: Smaran-Teja/assignment-action@main
+        uses: pawtograder/assignment-action@main
         with:
           grading_server: 'https://api.pawtograder.com'
           handout_repo: 'neu-cs2100/fa25-hw1-algodecisionmakers-handout'
