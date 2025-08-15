@@ -1,7 +1,7 @@
 import sys
 from word_analyzer import WordAnalyzer
 
-def main():
+def main() -> None:
     """Main function to run the word analysis program."""
     args = sys.argv[1:]
     

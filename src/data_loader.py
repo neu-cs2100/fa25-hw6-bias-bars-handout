@@ -1,9 +1,11 @@
+from typing import Any
 import json
+
 class DataLoader:
     """Handles loading and processing of data files."""
     
     @staticmethod
-    def load_dictionary_from_json(filename):
+    def load_dictionary_from_json(filename: str) -> Any:
         """
         This function opens the json file, loads it into a variable and returns the variable.
         """
